@@ -1,10 +1,18 @@
-@import url("");
+.resize {
+  width: 700px;
+}
 
- @media (max-width: 700px){
-   .container {
+@media (max-width: 700px){
+  .resize {
     width: 500px;
-   }
- }
+  }
+}
+
+@media (max-width: 500px){
+  .resize {
+    width: 300px;
+  }
+}
 
  body {
    background-color: #FEFBE7;
@@ -33,7 +41,7 @@
 
  .btn:hover {
    background-color: #E3CAA5;
-   font-size: 2px;
+   font-size: 20px;
  }
 
  #image {
@@ -60,7 +68,6 @@
    background-color: #E0D8B0;
    border: 6px solid #CDB699;
    border-radius: 15px;
-   width: 700px;
    margin: 16px auto;
    padding: 16px 50px;
    display: flex;
